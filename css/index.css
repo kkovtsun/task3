@@ -21,7 +21,7 @@ body {
 #currency2 {
   margin-left: 20px; }
 
-#currency1 > button, #currency2 > button {
+#currency1 > button, #currency2 > button, .btn {
   font-weight: 600;
   font-size: 16px;
   border-color: white;
@@ -98,11 +98,56 @@ body {
 
 .well {
   background-color: white;
-  margin-top: 20px; }
+  margin-top: 20px;
+  border-radius: 0px; }
+
+.well:hover {
+  border-color: #7fcbce; }
 
 .category-caption {
   position: absolute;
   top: 30px;
   left: 160px; }
+
+.page-header {
+  padding-bottom: 15px; }
+
+.pagin {
+  float: right; }
+
+.pagin > .btn:hover, .product-group > .btn:hover {
+  font-weight: bold;
+  color: #7fcbce; }
+
+.product-bg {
+  background-color: #f5f7f9;
+  border: none;
+  margin: -10px; }
+
+.well > p {
+  color: black;
+  padding-top: 15px; }
+
+.img-responsive {
+  margin: auto; }
+
+.heart {
+  color: red; }
+
+.product-group {
+  padding-left: 10px; }
+
+.product-group > .btn {
+  border: 1px #c8d4d6 solid; }
+
+.jumbotron.jumbodiv {
+  padding: 20px;
+  border-radius: 0px; }
+
+.jumbotron > h4 {
+  font-weight: bold; }
+
+.jumbotron.jumbodiv:hover {
+  color: #7fcbce; }
 
 /*# sourceMappingURL=index.css.map */
