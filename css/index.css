@@ -1,0 +1,108 @@
+body {
+  font-family: 'Slabo 27px', serif;
+  font-size: medium; }
+
+#header-info {
+  background-color: #f5f7f9;
+  padding: 10px; }
+
+.header-lines {
+  height: 5px; }
+
+.header-lines:first-child {
+  background-color: #59b7c2; }
+
+.header-lines:nth-child(2) {
+  background-color: #7fcbce; }
+
+.header-lines:last-child {
+  background-color: #aadce0; }
+
+#currency2 {
+  margin-left: 20px; }
+
+#currency1 > button, #currency2 > button {
+  font-weight: 600;
+  font-size: 16px;
+  border-color: white;
+  border-radius: 1px; }
+
+#currency1 > button:hover, #currency2 > button:hover {
+  color: white;
+  background-color: #7fcbce; }
+
+#logo {
+  background: url("../images/breeze-residences-logo.png") no-repeat;
+  width: 150px;
+  height: 99px; }
+
+#search {
+  font-size: 16px;
+  margin-top: 35px;
+  border-radius: 1px; }
+
+#menu {
+  height: 20px;
+  background-color: white;
+  border: none;
+  margin-top: 30px; }
+
+.navbar-nav > li:hover {
+  color: #7fcbce;
+  font-weight: bold; }
+
+#cash {
+  padding: 7px;
+  width: 100px;
+  margin-top: 5px;
+  background-color: #e6e9ed; }
+
+.active, #active {
+  background-color: #59b7c2;
+  color: white; }
+
+#rm2 > ul > li > a:hover {
+  color: white;
+  background-color: #7fcbce; }
+
+.carousel_caption {
+  background: white;
+  padding: 5px;
+  opacity: 0.7;
+  filter: alpha(Opacity=70);
+  color: black; }
+
+.carousel_caption > h1 > span {
+  margin-top: -5px; }
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 70%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -35%;
+  text-align: right; }
+
+.category-header, .page-header > a, a.glyphicon {
+  font-weight: bold;
+  color: black; }
+
+.category-header:hover, .page-header > a:hover, a.glyphicon:hover {
+  font-weight: bold;
+  color: #7fcbce; }
+
+.category-img {
+  margin-right: 10px; }
+
+.well {
+  background-color: white;
+  margin-top: 20px; }
+
+.category-caption {
+  position: absolute;
+  top: 30px;
+  left: 160px; }
+
+/*# sourceMappingURL=index.css.map */
